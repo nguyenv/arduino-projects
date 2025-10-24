@@ -31,13 +31,13 @@ void loop() {
     tone(8, notes[1]);
   }else if(keyVal >= 325){ // E: 330Hz
     tone(8, notes[2]);
-  }else if(keyVal >= 245){ // F: 349Hz
+  }else if(keyVal >= 240){ // F: 349Hz
     tone(8, notes[3]);
-  }else if(keyVal >= 195){ // G: 392Hz
+  }else if(keyVal >= 190){ // G: 392Hz
     tone(8, notes[4]);
   }else if(keyVal >= 155){ // A: 440Hz
     tone(8, notes[5]);
-  }else if(keyVal >= 135){ // B: 494Hz
+  }else if(keyVal >= 130){ // B: 494Hz
     tone(8, notes[6]);
   }else if(keyVal >= 100){ // C: 523Hz
     tone(8, notes[7]);
