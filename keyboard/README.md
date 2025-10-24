@@ -4,6 +4,8 @@ This project implements a **full octave keyboard from C4 to C5** using 8 buttons
 
 This code is **adapted and extended from The Arduino Projects Book**, *Project 07: "Keyboard Instrument"*, which originally supported only 4 frequencies.
 
+![Keyboard](./keyboard.jpg)
+
 ## Simple Song Index Mappings
 
 **Daisy Bell**
