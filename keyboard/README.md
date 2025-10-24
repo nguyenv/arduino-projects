@@ -2,7 +2,7 @@
 
 This project implements a **full octave keyboard from C4 to C5** using 8 buttons wired in a **uniform series resistor ladder (7 x 10kΩ)**. The keyboard uses a **single analog input (A0)** on an Arduino and outputs sound to a **piezo speaker (pin 8)**.
 
-This code is **adapted and extended from The Arduino Projects Book**, *Project 07: "Keyboard Instrument"*, which originally supported only 4 frequencies.
+This code is **adapted and extended from The Arduino Projects Book**, *Project 07: "Keyboard Instrument"*, which originally supported 4 frequencies for a variable resistor ladder.
 
 ![Keyboard](./keyboard.jpg)
 
