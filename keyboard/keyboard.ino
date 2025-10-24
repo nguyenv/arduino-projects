@@ -1,20 +1,14 @@
-// Full octave keyboard using a uniform resistor ladder (7 x 10kΩ).
-
-// Daisy Bell
-// 4 2 1 0 0 1 2 3 5 4
-// 3 5 2 0 0 1 2 3 5 4
-// 4 5 4 6 5 2 1 4 5 4 3 4 3 2
-// 5 6 6 5 3 4 2 0
-
-// Mary Had a Little Lamb
-// 2 1 0 1 2 2 2 1 1 1 2 4 4
-// 2 1 0 1 2 2 2 2 1 1 2 1 0
-
-// Twinkle Twinkle Little Star
-// 0 0 4 4 5 5 4 3 3 2 2 1 1 0
-// 4 4 3 3 2 2 1 4 4 3 3 2 2 1
-// 0 0 4 4 5 5 4 3 3 2 2 1 1 0
-
+/* 
+ * Full octave keyboard from C4 to C5. The 8 buttons are wired in a uniform 
+ * series resistor ladder (7 x 10kΩ) for a single-pin input (A0) and output to
+ * piezo (pin 8). 
+ *
+ * This code is adapted and extended from The Arduino Projects Book's 
+ * "Project 07: Keyboard Instrument," which is originally supported only
+ * 4 frequencies.
+ *
+ */
+ 
 const int notes[] = {262, 294, 330, 349, 392, 440, 494, 523};
 
 void setup() {
