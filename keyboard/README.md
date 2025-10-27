@@ -6,6 +6,10 @@ This code is **adapted and extended from The Arduino Projects Book**, *Project 0
 
 ![Keyboard](./keyboard.jpg)
 
+## Demo
+
+[![Keyboard Demo](https://img.youtube.com/vi/jDf5R5eZy48/hqdefault.jpg)](https://youtube.com/shorts/jDf5R5eZy48)
+
 ## Simple Song Index Mappings
 
 **Daisy Bell**
@@ -28,3 +32,4 @@ This code is **adapted and extended from The Arduino Projects Book**, *Project 0
 4 4 3 3 2 2 1 4 4 3 3 2 2 1
 0 0 4 4 5 5 4 3 3 2 2 1 1 0
 ```
+
